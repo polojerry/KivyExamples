@@ -1,0 +1,29 @@
+<MyGrid>
+    GridLayout:
+        size: root.width- 200, root.height- 200
+        pos : 100, 100
+        cols : 1
+
+        GridLayout:
+            cols : 2
+
+            Label :
+                text : "First Name:"
+            TextInput :
+                multiline: False   
+
+            Label :
+                text : "Last Name:"
+            TextInput :
+                multiline: False  
+
+            Label :
+                text : "Email Address:"
+            TextInput :
+                multiline: False   
+
+        Button:
+            text : "Submit"
+            size : 100,100
+
+
